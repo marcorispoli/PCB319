@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[02/07/23]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/10/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -28,9 +28,33 @@
     (Annotate_type "Default")
     (width_pages "100")
     (width_start "80")
-    (width_End "80"))
+    (width_End "80")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "23-319-0.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\23-319-0\23-319-0.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{descrizione}\t{Value}\t{PN}\t{PN FORNITORE}\t{COSTRUTTORE}\t{PACKAGE}\t{PCB Footprint}\t{NOTE}")
+    (BOM_Header
+       "Pos.\tQtà\tRif\tDescrizione\tValue\tPN\tPN Fornitore\tCostruttore\tPackage\tPcbFootprint\tNote")
+    (BOM_Include_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\23-319-0\23-319-0.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
   (Folder "Layout")
-  (Folder "Outputs")
+  (Folder "Outputs"
+    (File ".\23-319-0.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\23-319-0.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -54,21 +78,12 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\23-319-0.dsn")
       (Path "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1")
+      (Path "Outputs")
       (Select "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1" "OPTO"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 888"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
-        (Scroll "-86 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OPTO"))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
+      (Tab 0)))
+  (ISPCBBASICLICENSE "false"))
