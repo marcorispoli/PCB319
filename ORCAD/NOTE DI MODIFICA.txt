@@ -1,0 +1,2 @@
+Sostituire LM317MDCY con resistenza 0805 da 150R
+Cambiare package TLV7031QDBVRQ1 con SOT23

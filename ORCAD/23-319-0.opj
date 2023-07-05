@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/10/23]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[07/05/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -78,12 +78,11 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\23-319-0.dsn")
       (Path "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1" "OPTO"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 888"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))
