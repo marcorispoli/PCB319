@@ -1,5 +1,5 @@
 .HEADER
-board_file   2.0   OrCAD_Layout 2023/6/7.18:15:27 1
+board_file   2.0   OrCAD_Layout 2023/30/8.18:45:49 1
 "23-319-0.MAX"     THOU
 .END_HEADER
 .BOARD_OUTLINE
@@ -77,7 +77,7 @@ SMD0603_C5                               10nF                        C5
 SMD0603_C6                               10nF                        C6
     895.000000         200.000000           90.00            BOTTOM      PLACED
 686105183822-WE_J1                       ZIF-VERT                    J1
-   3696.850000        -468.500000            0.00            TOP         PLACED
+   3695.000000        -470.000000           180.00            TOP        FIXED
 RPI-0352E-ROHM_OC1                       RPI-0352E                   OC1
    3271.650000           0.000000           90.00            BOTTOM      PLACED
 RPI-0352E-ROHM_OC2                       RPI-0352E                   OC2
