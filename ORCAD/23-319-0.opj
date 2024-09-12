@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/03/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/11/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -94,6 +94,9 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
@@ -103,8 +106,7 @@
       (Path "Design Resources" ".\23-319-0.dsn")
       (Path "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1"
-         "OPTO_MIRROR_TRAP_FILTER"))
+      (Select "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1" "CONNECTORS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -114,93 +116,65 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1338 24 929")
-        (Scroll "-42 -7")
+        (Placement "44 0 1 -1 -1 5 24 5 1311 24 929")
+        (Scroll "-11 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNECTORS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
+        (Scroll "-29 -7")
         (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
+      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "OPTO_SECTION_1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
+        (Scroll "-29 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "OPTO_SECTION_2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
+        (Scroll "-29 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MOTOR_FILTER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1338 24 929")
-        (Scroll "-25 0")
-        (Zoom "107")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
+        (Scroll "-29 -7")
+        (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
+      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MOTOR_BACK"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1338 24 929")
-        (Scroll "-25 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_FRONT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1338 24 929")
-        (Scroll "-42 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
+        (Scroll "-29 -7")
         (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
+      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MOTOR_RIGHT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1338 24 929")
-        (Scroll "-42 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_MIRROR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1338 24 929")
-        (Scroll "-42 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OPTO_MIRROR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1338 24 929")
-        (Scroll "-42 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OPTO_FB"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1338 24 929")
-        (Scroll "-42 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OPTO_MIRROR_TRAP_FILTER")))
+      (Page "COLLIMATION_LED")))
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "marco")
+  (MPSSessionName "user")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
