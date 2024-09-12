@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/11/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/12/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -103,78 +103,23 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\23-319-0.dsn")
-      (Path "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-23-319\orcad\23-319-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-23-319\orcad\23-319-0.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\23-319-0.dsn" "SCHEMATIC1" "CONNECTORS"))
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-23-319\orcad\23-319-0.dsn"
+         "SCHEMATIC1" "CONNECTORS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 0 0 0 200 0 555"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1311 24 929")
-        (Scroll "-11 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CONNECTORS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
-        (Scroll "-29 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OPTO_SECTION_1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
-        (Scroll "-29 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OPTO_SECTION_2"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
-        (Scroll "-29 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_FILTER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
-        (Scroll "-29 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_BACK"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1311 24 929")
-        (Scroll "-29 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DOWNLOADS\PCB-23-319\PCB-23-319\ORCAD\23-319-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "COLLIMATION_LED")))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "user")
+  (MPSSessionName "marco")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
